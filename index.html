@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="teaApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Me and My Passion</title>
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css"/>
+
+    <!-- angular scripts -->
+    <script src="vendor/scripts/angular.min.js"></script>
+    <script src="vendor/scripts/angular-ui-router.min.js"></script>
+
+    <!-- bootstrap scripts -->
+    <script src="vendor/scripts/jquery.min.js"></script>
+    <script src="vendor/scripts/bootstrap.min.js"></script>
+
+    <!-- own scripts -->
+    <script src="app/tea.js"></script>
+    <script src="app/header/header.js"></script>
+    <script src="app/home/home.js"></script>
+
+</head>
+<body>
+
+    <!-- header  -->
+    <div ui-view="header"></div>
+
+    <h1>Hello</h1>
+
+</body>
+</html>
