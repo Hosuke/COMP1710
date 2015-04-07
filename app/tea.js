@@ -6,8 +6,8 @@ var teaApp = angular.module(
     'teaApp',[
         'ui.router',
         'header',
-        'home'
-        //'feedback'
+        'home',
+        'feedback'
     ]
 )
     .config(function ($stateProvider, $urlRouterProvider){
@@ -18,6 +18,10 @@ var teaApp = angular.module(
                     'header@': {
                         templateUrl: 'app/header/header.tmpl.html',
                         controller: 'HeaderController'
+                    },
+                    "main@": {
+                        templateUrl: 'app/home/home.tmpl.html',
+                        controller: 'HomeController'
                     }
                 },
                 abstract: true

@@ -5,6 +5,15 @@ angular.module('home', [])
     .config(function ($stateProvider){
         $stateProvider
             .state('tea.home', {
-                url: 'home'
+                url: 'home',
+                view: {
+                    "main@": {
+                        templateUrl: 'app/home/home.tmpl.html',
+                        controller: 'HomeController'
+                    }
+                }
             });
+    })
+    .controller("HomeController", function(){
+
     });
