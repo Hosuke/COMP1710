@@ -6,7 +6,7 @@ angular.module('feedback', [])
         $stateProvider
             .state('tea.feedback', {
                 url: 'feedback',
-                view: {
+                views: {
                     'header@': {
                         templateUrl: 'app/header/header.tmpl.html',
                         controller: 'HeaderController'
