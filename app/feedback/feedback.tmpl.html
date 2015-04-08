@@ -1,18 +1,16 @@
 <section>
     <div class="container-fluid">
-        <h3>
-            Hello, My name is Geyang.
-            This is feedback page
-        </h3>
-        <form name="feedback" method="post"  action="mailto:geyang@mensa.org.au">
-            <div class="row">
+        <div class="cover"></div>
+        <div class="feedback jumbotron">
+            <h3>
+                This is the feedback page.
+                Do you have anything want to tell me?
+            </h3>
+            <form name="feedback" method="post"  action="mailto:geyang@mensa.org.au">
                 <input type="text" class="form-control" placeholder="Name" name="name">
-            </div>
-            <div class="row">
-                <input type="text" class="form-control" name="content" placeholder="Anything want to say to me?">
-            </div>
-            <input type="submit" class="btn" value="Submit">
-
-        </form>
+                <textarea class="form-control" rows="3" name="content" placeholder="Anything want to say to me?"></textarea>
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+        </div>
     </div>
 </section>

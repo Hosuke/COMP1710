@@ -1,0 +1,20 @@
+footer {
+    color: #b3b3b3;
+    border-top: 2px solid #ddd;
+    font-size: 1.0em;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    background: linear-gradient(150deg, rgba(255, 248, 169, 0.65) 30%, rgba(173, 149, 89, 0.44) 70%) 0 0/cover fixed,url(../images/oolong%20tea.jpg) center/cover no-repeat fixed;
+}
