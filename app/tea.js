@@ -7,7 +7,8 @@ var teaApp = angular.module(
         'ui.router',
         'header',
         'home',
-        'feedback'
+        'feedback',
+        'sourcelog'
     ]
 )
     .config(function ($stateProvider, $urlRouterProvider){
