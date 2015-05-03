@@ -18,3 +18,15 @@ footer {
     z-index: -2;
     background: linear-gradient(150deg, rgba(255, 248, 169, 0.65) 30%, rgba(173, 149, 89, 0.44) 70%) 0 0/cover fixed,url(../images/oolong%20tea.jpg) center/cover no-repeat fixed;
 }
+
+.gallery img {
+    /*min-height:250px;*/
+    /*height:250px;*/
+    margin-bottom: -20px;
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+
+.wide {
+    width: 100%;
+}

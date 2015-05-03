@@ -2,13 +2,13 @@
     <div class="container-fluid">
         <div class="cover"></div>
         <div class="col-sm-6 col-md-4" ng-repeat="photo in photos">
-            <div class="thumbnail">
+            <div href="{{photo.src}}" class="thumbnail gallery">
                 <img src="{{photo.src}}" alt="...">
-                <!--<div class="caption">-->
-                    <!--<h3>Thumbnail label</h3>-->
-                    <!--<p>...</p>-->
-                    <!--<p><a href="#" class="btn btn-primary" role="button">Button</a></p>-->
-                <!--</div>-->
+                <div class="caption">
+                    <h3 ng-show="photo.title">{{photo.title}}</h3>
+                    <p ng-show="photo.description">{{photo.description}}</p>
+                    <a href="{{photo.src}}" class="btn btn-primary wide" role="button">View</a>
+                </div>
             </div>
         </div>
     </div>

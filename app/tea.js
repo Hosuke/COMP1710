@@ -9,6 +9,7 @@ var teaApp = angular.module(
         'home',
         'feedback',
         'gallery',
+        'video',
         'sourcelog'
     ]
 )
