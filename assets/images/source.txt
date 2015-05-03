@@ -1,0 +1,7 @@
+chaju1.jpg:
+    青瓷茶具
+    http://www.duoyunxuan.com.cn/dyxmain/duoyunxuan/images/201211/goods_img/4692_P_1352422291940.jpg
+
+gallery01.jpg .. gallery10.jpg:
+    The process of making oolong tea
+    http://tieba.baidu.com/p/3059476194

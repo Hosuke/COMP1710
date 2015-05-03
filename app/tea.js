@@ -8,6 +8,7 @@ var teaApp = angular.module(
         'header',
         'home',
         'feedback',
+        'gallery',
         'sourcelog'
     ]
 )
