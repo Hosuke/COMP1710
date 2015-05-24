@@ -30,3 +30,9 @@ footer {
 .wide {
     width: 100%;
 }
+
+.vertical_align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
